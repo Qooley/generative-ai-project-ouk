@@ -1,9 +1,3 @@
-
----
-
-# 📄 Updated `LICENSE`
-
-```text
 Educational Use License
 
 Copyright (c) 2025 Marrion Kiprop
