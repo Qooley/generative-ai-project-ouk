@@ -1,18 +1,24 @@
+
+---
+
+# 📄 Updated `LICENSE`
+
+```text
 Educational Use License
 
-Copyright (c) 2025 OUK × BCS Jaseci Labs Short Course Team
+Copyright (c) 2025 Marrion Kiprop
 
-This project is part of the "Building Generative AI Applications" short course,
-jointly offered by The Open University of Kenya (OUK) and BCS Technology 
-International Pty Limited (Jaseci Labs, Australia).
+This repository is part of the "Building Generative AI Applications" short course,
+developed in collaboration between The Open University of Kenya (OUK) and 
+BCS Jaseci Labs, Australia.
 
-Permission is hereby granted to use this code, documentation, and related 
-materials for educational, academic, and research purposes only.
+Permission is granted to use this code and documentation for educational, academic,
+and research purposes only.
 
 Restrictions:
 - Commercial use, redistribution, or modification outside the context of this 
-  course is not permitted without prior written consent.
-- No warranty is provided; use at your own risk.
+  project requires prior written consent.
+- No warranty is provided. Use at your own risk.
 
 By accessing or using this repository, you agree to these terms.
 

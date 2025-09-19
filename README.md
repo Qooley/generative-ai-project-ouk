@@ -1,26 +1,32 @@
 # Generative AI Project – OUK × BCS Jaseci Labs  
 
-This repository contains coursework, practice code, and project development for the **Building Generative AI Applications** short course, jointly offered by **The Open University of Kenya (OUK)** and **BCS Technology International Pty Limited (Jaseci Labs, Australia)**.  
+This repository showcases practical work in **Generative AI application development** using **Jaclang** and Python.  
+It was developed as part of a short course run by **The Open University of Kenya (OUK)** in collaboration with **BCS Jaseci Labs, Australia**.  
 
 ---
 
-## 🎯 About the Course  
-This program equips learners with practical skills to design and deploy **Generative AI applications** across diverse domains such as healthcare, agriculture, finance, education, and creative industries.  
+## 🎯 Overview  
+The project explores how generative AI can be applied across domains such as:  
+- Healthcare  
+- Agriculture  
+- Finance  
+- Education  
+- Creative industries  
 
-Through the **BCS Jaseci Lab ecosystem**, learners gain hands-on experience in:  
+Key focus areas include:  
 - ⚡ Building AI applications with **Jaclang** and Python  
-- 🧑‍💻 Developing solutions with pre-trained models for text, images, music, and video  
-- 🌍 Applying Generative AI to real-world challenges  
-- 🚀 Participating in a final **hackathon project**  
+- 🧑‍💻 Working with pre-trained models for text, images, music, and video  
+- 🌍 Designing AI solutions for real-world challenges  
+- 🚀 Delivering a final hackathon project  
 
 ---
 
-## 📂 Repository Contents  
+## 📂 Repository Structure  
 - `src/` → All source code  
-  - `assignments/` → Coursework tasks and solutions (Jaclang + Python)  
-  - `tutorials/` → Weekly practice notebooks and Jaclang scripts  
-  - `project/` → Hackathon final project (code + documentation)  
-- `docs/` → Reports, write-ups, and supporting materials  
+  - `assignments/` → Coursework tasks and solutions  
+  - `tutorials/` → Weekly practice examples  
+  - `project/` → Hackathon final project  
+- `docs/` → Reports, notes, and supporting materials  
 - `builds/` → Versioned builds (Build 1, Build 2, …)  
 - `tests/` → Unit tests and validation scripts  
 - `requirements.txt` → Python/Jaclang dependencies  
@@ -28,9 +34,9 @@ Through the **BCS Jaseci Lab ecosystem**, learners gain hands-on experience in:
 
 ---
 
-## ⚙️ Setup Instructions  
+## ⚙️ Setup  
 
-Clone the repo and set up your environment:  
+Clone and prepare the environment:  
 ```bash
 # clone repository
 git clone https://github.com/Qooley/generative-ai-project-ouk.git
@@ -47,4 +53,25 @@ pip install --upgrade pip
 
 # install dependencies
 pip install -r requirements.txt
+
+## ▶️ Running Examples
+
+# Run a Jaclang script:
+
+jac run src/tutorials/week1_hello_world.jac
+
+# Run a Python assignment:
+
+python src/assignments/task1_solution.py
+
+📑 Documentation
+
+See docs/
+ for course notes, design write-ups, and the hackathon final report.
+
+👥 Contributors
+
+Developed by Marrion Kiprop and the OUK × BCS Jaseci Labs 2025 Cohort.
+
+
 
