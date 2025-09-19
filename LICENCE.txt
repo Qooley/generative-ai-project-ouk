@@ -1,3 +1,18 @@
-For educational use only – developed under the OUK × BCS Jaseci Labs Generative AI short course.
-Redistribution or commercial use is not permitted without permission.
+Educational Use License
+
+Copyright (c) 2025 OUK × BCS Jaseci Labs Short Course Team
+
+This project is part of the "Building Generative AI Applications" short course,
+jointly offered by The Open University of Kenya (OUK) and BCS Technology 
+International Pty Limited (Jaseci Labs, Australia).
+
+Permission is hereby granted to use this code, documentation, and related 
+materials for educational, academic, and research purposes only.
+
+Restrictions:
+- Commercial use, redistribution, or modification outside the context of this 
+  course is not permitted without prior written consent.
+- No warranty is provided; use at your own risk.
+
+By accessing or using this repository, you agree to these terms.
 

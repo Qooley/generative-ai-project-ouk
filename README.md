@@ -16,22 +16,34 @@ Through the **BCS Jaseci Lab ecosystem**, learners gain hands-on experience in:
 ---
 
 ## 📂 Repository Contents  
-- `/tutorials` → Weekly practice notebooks and Jaclang scripts  
-- `/assignments` → Coursework tasks and solutions (Jaclang + Python)  
-- `/project` → Hackathon final project (code + documentation)  
-- `/docs` → Reports, write-ups, and supporting materials  
+- `src/` → All source code  
+  - `assignments/` → Coursework tasks and solutions (Jaclang + Python)  
+  - `tutorials/` → Weekly practice notebooks and Jaclang scripts  
+  - `project/` → Hackathon final project (code + documentation)  
+- `docs/` → Reports, write-ups, and supporting materials  
+- `builds/` → Versioned builds (Build 1, Build 2, …)  
+- `tests/` → Unit tests and validation scripts  
+- `requirements.txt` → Python/Jaclang dependencies  
+- `.gitignore`, `LICENSE`, `README.md`  
 
 ---
 
 ## ⚙️ Setup Instructions  
+
+Clone the repo and set up your environment:  
 ```bash
 # clone repository
 git clone https://github.com/Qooley/generative-ai-project-ouk.git
 cd generative-ai-project-ouk
 
-# create virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
+# create virtual environment (custom name allowed, e.g., genai-env)
+python3 -m venv genai-env
+source genai-env/bin/activate   # Linux/Mac
+# OR
+genai-env\Scripts\activate      # Windows PowerShell
+
+# upgrade pip
+pip install --upgrade pip
 
 # install dependencies
 pip install -r requirements.txt
