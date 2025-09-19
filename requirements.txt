@@ -1,0 +1,14 @@
+# Core language / ecosystem
+jaclang          # Jac language compiler/interpreter
+
+# Common Python libraries (for data handling, AI tasks, utilities)
+numpy            # numerical computations
+pandas           # data manipulation & analysis
+matplotlib       # plotting & visualization
+
+# Optional (depending on your course tasks)
+torch            # PyTorch, for deep learning models
+transformers     # Hugging Face Transformers (text, vision, etc.)
+scikit-learn     # classic ML tasks
+notebook         # if you’ll run Jupyter notebooks
+
