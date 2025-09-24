@@ -23,26 +23,13 @@ Key focus areas include:
 
 ## 📂 Repository Structure  
 - `classwork/` → All source code  
-  - `assignments/` → Coursework tasks and solutions  
   - `tutorials/` → Weekly practice examples  
   - `practices/` → Train myself in jac
-- `docs/` → Reports, notes, and supporting materials  
-- `my build/` → Hackathon final project with project summary and milestones    
-- `tests/` → Unit tests and validation scripts  
+- `assignments/` → Coursework tasks and solutions  
+    - `Week1Assignement/`  →  Week 1 Assignment
+- `main build/` → Hackathon final project with project summary and milestones    
 - `requirements.txt` → Python/Jaclang dependencies  
 - `.gitignore`, `LICENSE`, `README.md`  
----
-## 📂 Repository Structure  
-- `classwork/` → All source code  
-  - `assignments/` → Coursework tasks and solutions  
-  - `tutorials/` → Weekly practice examples  
-  - `practices/` → Train myself in jac
-- `docs/` → Reports, notes, and supporting materials  
-- `my build/` → Hackathon final project    
-- `tests/` → Unit tests and validation scripts  
-- `requirements.txt` → Python/Jaclang dependencies  
-- `.gitignore`, `LICENSE`, `README.md`  
-
 ---
 
 ## ⚙️ Setup  
