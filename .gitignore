@@ -4,6 +4,10 @@ __pycache__/
 *.pyo
 *.pyd
 
+#Python Code
+wordgame.py
+words.txt
+
 # Virtual environments
 .venv/
 env/
