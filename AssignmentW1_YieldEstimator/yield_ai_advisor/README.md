@@ -9,7 +9,7 @@ This module extends the yield estimator by integrating **advisory intelligence**
 It calculates yield AND provides management advice, either:
 - via **heuristics** (default, no external API needed), or  
 - via **byLLM** (optional, if LLM API is available and configured).  
-
+```
 ---
 
 ## Features
@@ -23,8 +23,9 @@ It calculates yield AND provides management advice, either:
 Run interactively:
 ```bash
 jac run yield_ai_advisor/yield_ai.jac
-
-Example run:
+```
+---
+## Example run:
 
 🤖  Yield Advisor
 🌾  Crop: Maize

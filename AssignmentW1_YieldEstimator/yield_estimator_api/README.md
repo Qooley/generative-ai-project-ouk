@@ -8,7 +8,7 @@
 This module implements a **Crop Yield Estimator** that works in both:
 1. **CLI mode** — interactive command-line prompts for single farmers.
 2. **API mode** — callable HTTP endpoints for batch yield estimation.
-
+```
 ---
 
 ## Features
@@ -17,21 +17,22 @@ This module implements a **Crop Yield Estimator** that works in both:
 - 🔗 Scale-agnostic: Same code runs locally or as an API.  
 
 ---
-Sample run:
+## Sample run:
 👨‍🌾  Crop Yield Estimator (CLI)
 🌾  Crop name: Maize
 📐  Acreage planted (ha): 5
 📦  Expected yield per hectare (kg/ha): 1800
 ✅  Crop: Maize ⇒ Total: 9000 kg
 
-API Mode
+---
+## API Mode
 
-Start the API:
-
+# Start the API:
+```
 jac serve yield_estimator_api/yield_api.jac
-
-Example request:
-
+```
+# Example request:
+```
 POST /BatchSummaryAPI
 {
   "crops": ["Maize", "Beans"],
