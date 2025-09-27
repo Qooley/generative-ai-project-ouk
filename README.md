@@ -39,35 +39,42 @@ Clone and prepare the environment:
 # clone repository
 git clone https://github.com/Qooley/generative-ai-project-ouk.git
 cd generative-ai-project-ouk
-
+```
 # create virtual environment (custom name allowed, e.g., genai-env)
+```
 python3 -m venv genai-env
 source genai-env/bin/activate   # Linux/Mac
+```
 # OR
+```
 genai-env\Scripts\activate      # Windows PowerShell
-
+```
 # upgrade pip
+```
 pip install --upgrade pip
-
+```
 # install dependencies
+```
 pip install -r requirements.txt
-
+```
 ## ▶️ Running Examples
 
 # Run a Jaclang script:
-
+```
 jac run src/tutorials/week1_hello_world.jac
-
+```
 # Run a Python assignment:
-
+```
 python src/assignments/task1_solution.py
-
-📑 Documentation
+```
+---
+## 📑 Documentation
 
 See docs/
- for course notes, design write-ups, and the hackathon final report.
+ - for course notes, design write-ups, and the hackathon final report.
 
-👥 Contributors
+---
+## 👥 Contributors
 
 Developed by Marrion Kiprop and the OUK × BCS Jaseci Labs 2025 Cohort.
 
