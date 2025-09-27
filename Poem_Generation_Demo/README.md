@@ -23,8 +23,10 @@ can generate_poem(title: str, subject: str, person_for: str) -> Poem by llm() {
     => { return Poem(title=title, subject=subject, person_for=person_for); }
 }
 
-🐍 Python Integration
 
+##🐍 Python Integration
+
+```
 import jaclang
 import generate_poem as poem_mod
 
@@ -35,7 +37,7 @@ poem = poem_mod.generate_poem(
 )
 print(poem.body)
 
-## 🌐 Run Locally with FastAPI
-'''
+#🌐 Run Locally with FastAPI
+``
 uvicorn poem_server:app --host 0.0.0.0 --port 8000 --reload
-'''
+
