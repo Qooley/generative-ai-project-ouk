@@ -1,2 +1,0 @@
-- Generalize to worms/people
-- Add trail graph (GNN) option

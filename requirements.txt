@@ -1,5 +1,6 @@
 # Core language / ecosystem
 jaclang          # Jac language compiler/interpreter
+jac              # Jac language standard library
 
 # Common Python libraries (for data handling, AI tasks, utilities)
 numpy            # numerical computations

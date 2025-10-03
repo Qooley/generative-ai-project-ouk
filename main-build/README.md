@@ -1,15 +1,13 @@
-# Bee Movement AI — By Weeks (Python + Jac mixed)
+# Bee Movement
 
-This repo matches your weekly structure. Each week folder includes **Python** (models/scripts) and **Jac** (walkers/graph) where relevant.
+- 1: baseline_models.py, graph.jac, OccupancyBaseline in Jac
+- 2: feature_engineering.py, calibration.jac
+- 3: evaluation 
+- 4: diffusion/advection 
+- 5: particle filter
+- 6: ConvLSTM hooks 
+- 7: ensemble 
+- 8: dashboard API
+- 9: reporting
 
-- Week 1–2: baseline_models.py, graph.jac, OccupancyBaseline in Jac
-- Week 3–4: feature_engineering.py, calibration.jac
-- Week 5: evaluation (Python + Jac)
-- Week 6: diffusion/advection (Python + Jac)
-- Week 7: particle filter (Python + Jac)
-- Week 8–9: ConvLSTM hooks (Python) + deep_hook.jac
-- Week 10: ensemble (Python + Jac)
-- Week 11: dashboard API (Python) + export.jac
-- Week 12: reporting
 
-> Register Jac files per week in `jsctl` as you work that week.
